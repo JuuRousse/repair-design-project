@@ -1,0 +1,135 @@
+.design-projects-steps {
+  position: relative;
+  background-color: #131313;
+}
+
+.whitedfthfjk {
+  position: absolute;
+  width: 100%;
+  height: 620px;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+}
+
+.design-projects-steps .design-projects {
+  position: relative;
+  padding-top: 154px;
+}
+
+.design-icon-text {
+  padding-top: 24px;
+}
+
+.types-design-projects {
+  padding-bottom: 258px;
+}
+
+.inner .description-one {
+  height: 211px;
+}
+
+.inner .description-three {
+  height: 414px;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-steps-content h3 {
+  font-family: "Futura DemiC", sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.title-steps-content h2 {
+  font-family: "Yeseva One", serif;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #e3b873;
+  position: relative;
+}
+
+.title-steps-content span {
+  position: absolute;
+  height: 1px;
+  width: 92px;
+  background: #e3b873;
+  left: 171px;
+  bottom: 17px;
+}
+
+.step-content-body .step-number {
+  font-family: "Yeseva One", serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-top: 92px;
+  color: #ffffff;
+}
+
+.step-content-body h3 {
+  font-family: "Yeseva One", serif;
+  font-size: 15px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #e3b873;
+}
+
+.step-content-body .step-description {
+  font-family: "Futura BookC", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.steps-tabs-image {
+  padding-top: 100px;
+}
+
+.steps-tabs-image .steps-tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.steps-tabs .step-button {
+  margin-bottom: 45px;
+}
+
+.steps-tabs button {
+  background: transparent;
+  border: 0;
+  font-family: "Futura BookC", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: left;
+  width: 133px;
+}
+
+.steps-tabs button:hover,
+.steps-tabs button.active {
+  color: #ffffff;
+}
+
+.steps-tabs button:hover span,
+.steps-tabs button.active span {
+  color: #ffffff;
+  border-bottom-color: #e3b873;
+}
+
+.steps-tabs button span {
+  font-family: "Yeseva One", serif;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  margin-bottom: 11px;
+}

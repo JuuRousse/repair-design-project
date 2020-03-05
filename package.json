@@ -13,6 +13,8 @@
     "sass": "^1.25.0"
   },
   "dependencies": {
+    "css": "^2.2.4",
+    "jquery": "^3.4.1",
     "swiper": "^5.3.1"
   }
 }

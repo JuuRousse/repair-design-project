@@ -1,0 +1,74 @@
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #131313;
+  text-transform: uppercase;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 82px;
+}
+
+.logo a {
+  font-family: "Futura DemiC", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #e3b873;
+  text-decoration: none;
+}
+
+.header-items,
+.footer-items {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu a,
+.footer-menu a {
+  font-family: "Futura BookC", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-menu a:hover,
+.footer-menu a:hover {
+  color: #e3b873;
+}
+
+.header-menu ul,
+.footer-menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header-menu li,
+.footer-menu li {
+  padding-right: 47px;
+}
+
+.header-items .phone-number a,
+.footer-items .phone-number a {
+  font-family: FuturaDemiC;
+  font-size: 14px;
+  line-height: 16px;
+  color: #e3b873;
+  padding-right: 45px;
+}
+
+.header-button button,
+.footer-button button {
+  font-family: "Futura DemiC", sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 13px 33px;
+  margin: 25px 100px 22px 0;
+}

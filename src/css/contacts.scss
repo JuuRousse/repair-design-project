@@ -1,0 +1,67 @@
+.location {
+  background-image: url("./images/location-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.graydklgfhdfs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  left: 0;
+  background-color: rgba(24, 24, 24, 0.9);
+}
+
+.location-container {
+  position: relative;
+  padding-bottom: 66px;
+  padding-top: 275px;
+}
+
+.location-container .adress {
+  font-family: "Yeseva One", serif;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e3b873;
+  padding-bottom: 26px;
+  position: relative;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 43px;
+}
+
+.contacts .contact {
+  background-color: #e3b873;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.contacts a {
+  text-decoration: none;
+}
+
+.contacts img {
+  padding: 0;
+  display: block;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

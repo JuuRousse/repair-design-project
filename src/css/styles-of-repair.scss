@@ -1,0 +1,90 @@
+.repair-styles {
+  background-image: url("./images/repair-styles-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.repair-styles .shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.repair-styles .tabs-buttons {
+  position: relative;
+}
+
+.tabs-buttons {
+  padding-top: 137px;
+  padding-left: 99px;
+  padding-bottom: 72px;
+}
+
+.repair-styles .title {
+  font-family: "Yeseva One", serif;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #e3b873;
+  padding-bottom: 30px;
+}
+
+.repair-styles .tabs-buttons ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.repair-styles .tabs-buttons .active,
+.repair-styles .tabs-buttons button:hover {
+  color: #e3b873;
+  border-bottom: 1px solid #e3b873;
+}
+
+.repair-styles .tabs-buttons button {
+  background: transparent;
+  border: none;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.repair-styles .tabs-images {
+  z-index: 10;
+  display: none;
+}
+
+.repair-styles .tabs-images.active {
+  display: flex;
+}
+
+.repair-styles .tabs-images columns {
+  position: relative;
+}
+
+.tabs-images .columns .column-one {
+  position: absolute;
+  top: -41px;
+  right: 500px;
+}
+
+.tabs-images .columns .column-two {
+  position: absolute;
+  top: -112px;
+  right: 102px;
+}
+
+.tabs-images .columns img {
+  color: #363636;
+  padding-bottom: 37px;
+  padding-right: 43px;
+}

@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+
+  &.overflowed {
+    overflow: hidden;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Futura DemiC";
+  src: url("./fonts/futurademic.otf");
+}
+
+@font-face {
+  font-family: "Futura BookC";
+  src: url("./fonts/futurabookc.otf");
+}
+
+@font-face {
+  font-family: "Yeseva One";
+  src: url("./fonts/yesevaone.ttf");
+}
+
+@font-face {
+  font-family: "Futura MediumC";
+  src: url("./fonts/futuramediumc.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/proximanova.otf");
+}
+
+.scroll-down {
+  position: fixed;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 40px 78px 40px 49px;
+  background: #131313;
+  bottom: 0;
+  z-index: 10;
+  text-decoration: none;
+}
+
+.button-gold {
+  background: #e3b873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  border: none;
+}
+
+.button-gold:hover {
+  color: #000000;
+  background: #ffffff;
+  transition: 0.5s;
+}
+
+.button-transparent {
+  background: transparent;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+}
+
+.button-transparent:hover {
+  color: #000000;
+  background: #ffffff;
+  transition: 0.5s;
+}
+
+.title h3 {
+  font-family: "Yeseva One", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+.title-white {
+  color: #ffffff;
+}
+
+.title-black {
+  color: #181818;
+}
+
+.title-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13px;
+}
+
+.title .line-one,
+.title .line-two {
+  background-color: #e3b873;
+  width: 32px;
+  height: 2px;
+  display: inline-block;
+  margin: 0 9px;
+}
+
+.icon-text {
+  font-family: "Futura BookC", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.icon-arrow {
+  position: absolute;
+  right: 39px;
+  bottom: 36px;
+}

@@ -1,8 +1,8 @@
 <section id="projects" class="projects">
     <div class="projects-tabs">
-        <button type="button" class="active">Rostov-on-Don, Admiral</button>
-        <button type="button">Sochi Thieves</button>
-        <button type="button">Rostov-on-Don Patriotic</button>
+        <button type="button" class="active js-project-button" data-index="0">Rostov-on-Don, Admiral</button>
+        <button type="button" class="js-project-button" data-index="1">Sochi Thieves</button>
+        <button type="button" class="js-project-button" data-index="2">Rostov-on-Don, Patriotic</button>
     </div>
     <div class="projects-container">
         <div class="projects-content">
@@ -13,7 +13,7 @@
                 presented on the site. For 14 years on in the construction <br> market we have made happy more than
                 1000
                 families</div>
-            <div class="projects-info">
+            <div class="projects-info active" data-index="0">
                 <div class="item">
                     <div class="projects-info-title">city:</div>
                     <div class="projects-info-content">Rostov-on-Don <br>
@@ -32,10 +32,50 @@
                     <div class="projects-info-content">Upon request</div>
                 </div>
             </div>
+
+            <div class="projects-info" data-index="1">
+                <div class="item">
+                    <div class="projects-info-title">city:</div>
+                    <div class="projects-info-content">Sochi<br>
+                        Thieves</div>
+                </div>
+                <div class="item">
+                    <div class="projects-info-title">apartment area:</div>
+                    <div class="projects-info-content">104m<sup>2</sup></div>
+                </div>
+                <div class="item">
+                    <div class="projects-info-title">repair time:</div>
+                    <div class="projects-info-content">4 month</div>
+                </div>
+                <div class="item">
+                    <div class="projects-info-title">repair cost:</div>
+                    <div class="projects-info-content">Upon request</div>
+                </div>
+            </div>
+
+            <div class="projects-info" data-index="2">
+                <div class="item">
+                    <div class="projects-info-title">city:</div>
+                    <div class="projects-info-content">Rostov-on-Don <br>
+                        Patriotic </div>
+                </div>
+                <div class="item">
+                    <div class="projects-info-title">apartment area:</div>
+                    <div class="projects-info-content">120m<sup>2</sup></div>
+                </div>
+                <div class="item">
+                    <div class="projects-info-title">repair time:</div>
+                    <div class="projects-info-content">5 month</div>
+                </div>
+                <div class="item">
+                    <div class="projects-info-title">repair cost:</div>
+                    <div class="projects-info-content">Upon request</div>
+                </div>
+            </div>
         </div>
 
         <div class="projects-slider">
-            <div class="swiper-container first-slider">
+            <div class="swiper-container active first-slider" data-index="0">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -46,21 +86,50 @@
                         <img src="./images/admiral-two.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/admiral-one.jpg" alt="">
+                        <img src="./images/admiral-three.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/admiral-two.jpg" alt="">
+                        <img src="./images/admiral-four.jpg" alt="">
                     </div>
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+            </div>
 
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+            <div class="swiper-container first-slider" data-index="1">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./images/thieves-one.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/thieves-two.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/thieves-three.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/thieves-four.jpg" alt="">
+                    </div>
+                </div>
+            </div>
 
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+            <div class="swiper-container first-slider" data-index="2">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./images/patriotic-one.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/patriotic-two.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/patriotic-three.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/patriotic-four.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
 

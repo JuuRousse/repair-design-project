@@ -1,0 +1,321 @@
+.team-review {
+  position: relative;
+  background-image: url("./images/team-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blackdfklgjhk {
+  position: absolute;
+  width: 100%;
+  height: 495px;
+  left: 0;
+  right: 0;
+  background-color: #131313;
+}
+
+.team {
+  position: relative;
+}
+
+.title-team {
+  padding-top: 95px;
+}
+
+.team-icon-text {
+  padding-top: 24px;
+}
+
+.people-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 38px;
+}
+
+.people-team .item {
+  padding-right: 106px;
+}
+
+.people-team .item:last-child {
+  padding-right: 0;
+}
+
+.people-team .inner {
+  position: relative;
+}
+
+.people-icon {
+  background-color: #e3b873;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: calc(100% - 363px);
+  left: 0;
+  right: 0;
+  margin-left: -35px;
+  margin-top: -35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.personal-info {
+  background-color: #ffffff;
+  height: 137px;
+  width: 233px;
+  padding-top: 22px;
+  padding-bottom: 24px;
+  position: absolute;
+  top: calc(100% - 93px);
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.personal-info .name {
+  font-family: "Yeseva One", serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+  text-align: center;
+}
+
+.personal-info .position {
+  font-family: "Futura BookC", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #959595;
+  padding-top: 9px;
+  padding-bottom: 24px;
+}
+
+.work-experience {
+  background-color: #e3b873;
+  font-family: "Yeseva One", serif;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.team-review .line {
+  background-color: #e3b873;
+  width: 55px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 790px;
+}
+
+.description-team {
+  font-family: "Futura BookC", sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #363636;
+  padding-top: 129px;
+}
+/* ******* */
+/* REVIEWS */
+/* ******* */
+
+.clients {
+  padding-top: 89px;
+  padding-bottom: 382px;
+}
+
+.clients-icon-text {
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+
+.clients-reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1236px;
+  margin: 0 auto;
+}
+
+.clients-reviews .item {
+  width: 33.33%;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+  margin-right: 54px;
+}
+
+.clients-reviews .item:last-child {
+  margin-right: 0;
+}
+
+.clients-reviews .profile {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.clients-reviews .item {
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-bottom: 85px;
+}
+
+.clients-reviews .item .inner {
+  position: relative;
+}
+
+.clients-reviews .item img {
+  border-radius: 50%;
+}
+
+.clients-reviews .item .name {
+  font-family: "Yeseva One", serif;
+  font-size: 18px;
+  line-height: 23px;
+  color: #181818;
+  padding-left: 24px;
+}
+
+.clients-reviews .feedback {
+  font-family: "Futura BookC", sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  color: #959595;
+}
+
+.clients-reviews .workload {
+  background-color: #e3b873;
+  font-family: "Yeseva One", serif;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  width: 294px;
+  height: 54px;
+  position: absolute;
+  top: 370px;
+  left: -20px;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.clients-reviews .workload img {
+  border-radius: 0%;
+}
+
+.clients-reviews .clients-reviews-workload-item:first-child {
+  border-right: 0.75px solid #ffffff;
+}
+
+.clients-reviews-workload-item {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-reviews-workload-item span {
+  padding-left: 12px;
+}
+
+.form-questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.any-questions-form {
+  padding: 34px 180px;
+  width: 883px;
+  background-color: #131313;
+  margin-bottom: -750px;
+  position: relative;
+  z-index: 10;
+}
+
+.any-questions-form .form-title {
+  font-family: "Yeseva One", serif;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.items-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-row .item-input {
+  width: 50%;
+}
+
+.any-questions-form .item-input {
+  padding-top: 46px;
+}
+
+.items-row .item-input:first-child {
+  padding-right: 29px;
+}
+
+.items-row .item-input:last-child {
+  padding-left: 29px;
+}
+
+.any-questions-form .item-input label {
+  display: block;
+  font-family: "Futura BookC", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.any-questions-form .item-input input {
+  background: transparent;
+  border: 0;
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.any-questions-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.any-questions-form .item-agreement {
+  padding-top: 48px;
+  padding-bottom: 50px;
+  font-family: "Futura BookC", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.any-questions-form .item-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.any-questions-form button {
+  font-family: "Futura DemiC", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 20px 74px;
+}

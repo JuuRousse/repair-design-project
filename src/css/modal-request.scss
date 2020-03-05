@@ -1,0 +1,45 @@
+.modal-request {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+  overflow: auto;
+  padding-bottom: 20px;
+  display: none;
+
+  // .modal-request.show {
+  &.js-show {
+    display: block;
+  }
+}
+
+.modal-request-content {
+  margin: 100px auto 0;
+  width: 506px;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.modal-request-title {
+  font-family: "Yeseva One", serif;
+  font-size: 19px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.modal-request-content .request-form-departure {
+  margin-left: 0;
+}
+
+.modal-request-content .modal-close {
+  position: absolute;
+  right: 12px;
+  top: 11px;
+  background: transparent;
+  border: 0;
+  padding: 0;
+}

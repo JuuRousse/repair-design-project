@@ -1,0 +1,123 @@
+.projects {
+  position: relative;
+  background-image: url(./images/projects-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 243px;
+}
+
+.projects .projects-tabs {
+  padding-top: 107px;
+  padding-bottom: 53px;
+  padding-left: 594px;
+}
+
+.projects .projects-tabs .active,
+.projects .projects-tabs button:hover {
+  color: #e3b873;
+  border-bottom: 1px solid #e3b873;
+}
+
+.projects .projects-tabs button {
+  font-family: "Yeseva One", serif;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 0;
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 60px;
+}
+
+.projects-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.projects .projects-content {
+  margin-left: 101px;
+}
+
+.projects .projects-content h2 {
+  font-family: "Yeseva One", serif;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #e3b873;
+  position: relative;
+}
+
+.projects-content span {
+  position: absolute;
+  height: 1px;
+  width: 92px;
+  background: #e3b873;
+  left: 171px;
+  bottom: 17px;
+}
+.projects-content .projects-description {
+  font-family: "Futura BookC", sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.projects-info {
+  display: none;
+}
+
+.projects-info.active {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-info .item {
+  width: 50%;
+}
+
+.projects-info-title {
+  font-family: "Yeseva One", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #e3b873;
+  margin-bottom: 9px;
+  margin-top: 34px;
+}
+
+.projects-info-content {
+  font-family: "Futura BookC", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.projects-slider {
+  width: 60%;
+}
+
+.first-slider {
+  width: 1400px;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+}
+
+.first-slider.active {
+  display: block;
+}
+
+.first-slider {
+  display: none;
+}
+
+.video-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
