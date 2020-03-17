@@ -21,14 +21,10 @@
   width: 506px;
   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
   position: relative;
-}
 
-.modal-request-title {
-  font-family: "Yeseva One", serif;
-  font-size: 19px;
-  line-height: 26px;
-  text-align: center;
-  color: #ffffff;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }
 
 .modal-request-content .request-form-departure {

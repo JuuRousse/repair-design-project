@@ -4,12 +4,35 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 243px;
+
+  @media (max-width: 500px) {
+    background-image: none;
+    background-color: #252525;
+  }
 }
 
 .projects .projects-tabs {
+  display: flex;
+  justify-content: flex-end;
   padding-top: 107px;
   padding-bottom: 53px;
-  padding-left: 594px;
+  padding-right: 50px;
+  padding-left: 60px;
+
+  @media (max-width: 1100px) {
+    justify-content: center;
+    padding-right: 0;
+    padding-top: 57px;
+  }
+
+  @media (max-width: 740px) {
+    padding-left: 30px;
+    padding-top: 36px;
+  }
+
+  @media (max-width: 670px) {
+    padding-left: 15px;
+  }
 }
 
 .projects .projects-tabs .active,
@@ -21,21 +44,45 @@
 .projects .projects-tabs button {
   font-family: "Yeseva One", serif;
   font-size: 14px;
-  line-height: 19px;
   text-transform: uppercase;
   background-color: transparent;
   border: 0;
   color: rgba(255, 255, 255, 0.3);
   margin-right: 60px;
+
+  @media (max-width: 780px) {
+    margin-right: 30px;
+  }
+
+  @media (max-width: 670px) {
+    margin-right: 15px;
+    font-size: 12px;
+  }
 }
 
 .projects-container {
   display: flex;
   overflow: hidden;
+
+  @media (max-width: 950px) {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
 }
 
 .projects .projects-content {
   margin-left: 101px;
+  max-width: 400px;
+  margin-right: 50px;
+
+  @media (max-width: 1340px) {
+    margin-left: 60px;
+  }
+
+  @media (max-width: 670px) {
+    max-width: 310px;
+    margin-left: 32px;
+  }
 }
 
 .projects .projects-content h2 {
@@ -45,6 +92,24 @@
   text-transform: uppercase;
   color: #e3b873;
   position: relative;
+
+  @media (max-width: 1340px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 1100px) {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 950px) {
+    text-align: center;
+  }
+
+  @media (max-width: 950px) {
+    text-align: center;
+    margin-top: 52px;
+  }
 }
 
 .projects-content span {
@@ -54,12 +119,30 @@
   background: #e3b873;
   left: 171px;
   bottom: 17px;
+
+  @media (max-width: 950px) {
+    display: none;
+  }
 }
+
 .projects-content .projects-description {
   font-family: "Futura BookC", sans-serif;
   font-size: 18px;
   line-height: 29px;
   color: #ffffff;
+  margin-bottom: 6px;
+
+  @media (max-width: 1340px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 1100px) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 950px) {
+    text-align: center;
+  }
 }
 
 .projects-info {
@@ -83,6 +166,15 @@
   color: #e3b873;
   margin-bottom: 9px;
   margin-top: 34px;
+
+  @media (max-width: 1340px) {
+    margin-top: 17px;
+    font-size: 16px;
+  }
+
+  @media (max-width: 1100px) {
+    font-size: 15px;
+  }
 }
 
 .projects-info-content {
@@ -92,12 +184,80 @@
   color: #ffffff;
 }
 
+.first-slider-prev-btn,
+.first-slider-next-btn {
+  @media (min-width: 951px) {
+    display: none;
+  }
+
+  @media (max-width: 950px) {
+    position: absolute;
+    z-index: 10;
+    top: 45%;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #e3b873;
+    box-shadow: 0px 0px 15px rgba(227, 184, 115, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 600px) {
+    top: 41%;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.first-slider-prev-btn {
+  @media (max-width: 950px) {
+    left: 13px;
+    transform: scale(-1, 1);
+  }
+}
+
+.first-slider-next-btn {
+  @media (max-width: 950px) {
+    right: 13px;
+  }
+}
+
+.first-slider-next-btn:focus,
+.first-slider-prev-btn:focus {
+  outline: none;
+}
+
+.first-slider-next-btn img,
+.first-slider-prev-btn img {
+  width: 8px;
+  height: 19px;
+}
+
 .projects-slider {
   width: 60%;
+  position: relative;
+
+  @media (max-width: 950px) {
+    width: 100%;
+  }
 }
 
 .first-slider {
   width: 1400px;
+
+  @media (max-width: 1340px) {
+    width: 1200px;
+  }
+
+  @media (max-width: 1100px) {
+    width: 1100px;
+  }
+
+  @media (max-width: 950px) {
+    width: 100%;
+  }
 }
 
 .swiper-slide img {
@@ -120,4 +280,27 @@
   position: absolute;
   right: 0;
   left: 0;
+
+  @media (max-width: 950px) {
+    padding-top: 57px;
+  }
+}
+
+.video-control iframe {
+  @media (max-width: 1100px) {
+    width: 617px;
+    height: 334px;
+  }
+
+  @media (max-width: 780px) {
+    width: 517px;
+    height: 234px;
+  }
+
+  @media (max-width: 670px) {
+    width: 100%;
+    height: 234px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
 }

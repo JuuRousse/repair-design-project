@@ -1,6 +1,10 @@
 .design-projects-steps {
   position: relative;
   background-color: #131313;
+
+  @media (max-width: 1000px) {
+    background-color: #ffffff;
+  }
 }
 
 .whitedfthfjk {
@@ -10,32 +14,85 @@
   left: 0;
   right: 0;
   background-color: #ffffff;
+
+  @media (max-width: 1000px) {
+    background-color: #181818;
+  }
+}
+
+.design-projects h3 {
+  @media (max-width: 1000px) {
+    color: #ffffff;
+  }
 }
 
 .design-projects-steps .design-projects {
   position: relative;
   padding-top: 154px;
+
+  @media (max-width: 760px) {
+    padding-top: 217px;
+    margin-top: -208px;
+  }
 }
 
 .design-icon-text {
   padding-top: 24px;
+  max-width: 760px;
+  margin: 0 auto;
+
+  @media (max-width: 1000px) {
+    color: #ffffff;
+  }
+
+  @media (max-width: 760px) {
+    max-width: 570px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  @media (max-width: 600px) {
+    max-width: 330px;
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
 .types-design-projects {
   padding-bottom: 258px;
+
+  @media (max-width: 1000px) {
+    background-color: #181818;
+  }
+
+  @media (max-width: 760px) {
+    padding-bottom: 68px;
+  }
 }
 
 .inner .description-one {
   height: 211px;
+
+  @media (max-width: 760px) {
+    height: 175px;
+  }
 }
 
 .inner .description-three {
   height: 414px;
+
+  @media (max-width: 760px) {
+    height: 348px;
+  }
 }
 
 .steps-container {
   display: flex;
   justify-content: space-around;
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
 }
 
 .title-steps-content h3 {
@@ -64,6 +121,14 @@
   bottom: 17px;
 }
 
+.step-content-body.active {
+  display: block;
+}
+
+.step-content-body {
+  display: none;
+}
+
 .step-content-body .step-number {
   font-family: "Yeseva One", serif;
   font-size: 18px;
@@ -88,8 +153,26 @@
   color: #ffffff;
 }
 
+.step-image.active {
+  display: block;
+}
+
+.step-image {
+  display: none;
+}
+
 .steps-tabs-image {
   padding-top: 100px;
+}
+
+.steps-tabs-image img {
+  @media (max-width: 1340px) {
+    width: 650px;
+  }
+
+  @media (max-width: 1100px) {
+    width: 550px;
+  }
 }
 
 .steps-tabs-image .steps-tabs {
@@ -97,7 +180,7 @@
   justify-content: space-between;
 }
 
-.steps-tabs .step-button {
+.steps-tabs .js-step-button {
   margin-bottom: 45px;
 }
 

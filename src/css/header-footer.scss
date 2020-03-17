@@ -6,10 +6,20 @@
   text-transform: uppercase;
 }
 
+.footer {
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
+
 .logo {
   display: flex;
   align-items: center;
   padding-left: 82px;
+
+  @media (max-width: 1100px) {
+    padding-left: 18px;
+  }
 }
 
 .logo a {
@@ -18,12 +28,24 @@
   line-height: 16px;
   color: #e3b873;
   text-decoration: none;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
 .header-items,
 .footer-items {
   display: flex;
   align-items: center;
+}
+
+.header-menu,
+.footer-menu {
+  @media (max-width: 1100px) {
+    display: none;
+  }
 }
 
 .header-menu a,
@@ -50,6 +72,10 @@
 .header-menu li,
 .footer-menu li {
   padding-right: 47px;
+
+  @media (max-width: 1360px) {
+    padding-right: 20px;
+  }
 }
 
 .header-items .phone-number a,
@@ -59,6 +85,10 @@
   line-height: 16px;
   color: #e3b873;
   padding-right: 45px;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
 
 .header-button button,
@@ -71,4 +101,15 @@
   color: #ffffff;
   padding: 13px 33px;
   margin: 25px 100px 22px 0;
+
+  @media (max-width: 1360px) {
+    margin-right: 20px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 10px;
+    padding: 10px 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }

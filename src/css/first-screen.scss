@@ -15,6 +15,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 1100px) {
+    display: none;
+  }
 }
 
 .social-network a {
@@ -38,11 +42,22 @@
 
 .content {
   position: relative;
-  margin-left: 82px;
+  margin-left: 81px;
   background-image: url(./images/first-screen.jpg);
   background-size: cover;
   padding-top: 194px;
   padding-left: 60px;
+
+  @media (max-width: 1100px) {
+    margin-left: 0;
+  }
+
+  @media (max-width: 600px) {
+    background-image: url(./images/first-screen-mobile.jpg);
+    padding-left: 18px;
+    padding-top: 85px;
+    padding-right: 18px;
+  }
 }
 
 .content .shadow {
@@ -64,6 +79,14 @@
   font-size: 40px;
   text-transform: uppercase;
   margin: 0;
+
+  @media (max-width: 1100px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 23px;
+  }
 }
 
 .content span {
@@ -76,6 +99,16 @@
   line-height: 30px;
   color: #ffffff;
   padding-top: 19px;
+  max-width: 450px;
+
+  @media (max-width: 1100px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+    max-width: 300px;
+  }
 }
 
 .content-button button {
@@ -88,12 +121,26 @@
   padding-bottom: 20px;
   margin-top: 41px;
   margin-bottom: 208px;
+
+  @media (max-width: 600px) {
+    margin-top: 32px;
+    margin-bottom: 61px;
+  }
+
+  @media (max-width: 485px) {
+    width: 100%;
+  }
 }
 
 .content-button .button-gold {
   padding-left: 42px;
   padding-right: 42px;
   margin-right: 20px;
+
+  @media (max-width: 485px) {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
 }
 
 .content-button .button-transparent {
