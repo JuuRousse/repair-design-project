@@ -1322,6 +1322,7 @@ button {
 .request-form-departure input {
   background: transparent;
   border: 0;
+  color: #ffffff;
   border-bottom: 1px solid rgba(54, 54, 54, 0.3);
 }
 
