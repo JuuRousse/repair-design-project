@@ -967,14 +967,14 @@ button {
   }
 }
 
-.request-form-broadcast .item-agreement span {
+.request-form-broadcast .item-agreement label {
   font-family: "Futura BookC", sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #181818;
 }
 @media (max-width: 500px) {
-  .request-form-broadcast .item-agreement span {
+  .request-form-broadcast .item-agreement label {
     color: #ffffff;
   }
 }
@@ -1334,7 +1334,33 @@ button {
   padding-top: 18px;
 }
 
-.request-form-departure .item-agreement span {
+.item-agreement input[type=checkbox] {
+  display: none;
+}
+
+.item-agreement input[type=checkbox] + label:before {
+  content: "";
+  background-color: #e3b873;
+  display: inline-block;
+  border-radius: 1px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 22px;
+  margin: -5px 5px 0 0;
+  height: 18px;
+  width: 18px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.item-agreement input[type=checkbox]:checked + label:before {
+  background-image: url(/check.4b7c2681.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.request-form-departure .item-agreement label {
   font-family: "Futura BookC", sans-serif;
   font-size: 16px;
   line-height: 22px;
